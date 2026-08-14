@@ -3,17 +3,17 @@ import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://Juansebas375.github.io',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Juan Rodriguez'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Juan Rodriguez',
+    subtitle: 'Systems Engineering Student',
+    description: 'Personal portfolio of Juan Rodriguez, a Systems Engineering student interested in web development and technology.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Juan Rodriguez - Personal Portfolio'
     },
     headerNavLinks: [
         {
@@ -45,16 +45,12 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'GitHub',
+            href: 'https://github.com/Juansebas375'
         },
         {
             text: 'Instagram',
@@ -66,11 +62,11 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hi, Welcome to My Website!',
+        text: "I'm **Juan Rodriguez**, a Systems Engineering student interested in web development, software, and technology.\n\nOn this website, you can learn more about me, explore my projects, and see some of the work I have done.\n\nFeel free to explore my projects and check out my coding journey. If you would like to get in touch, you can reach me at **jrodriguezd2006@gmail.com**.",
         image: {
             src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Juan Rodriguez working on a computer'
         },
         actions: [
             {
@@ -81,8 +77,8 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Contact',
+        text: 'Email: jrodriguezd2006@gmail.com\nPhone: 3053980220',
         form: {
             action: '#'
         }
