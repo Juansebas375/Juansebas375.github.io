@@ -1,14 +1,30 @@
 ---
-title: Get in touch
+title: Get in Touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Get in touch with Juan Rodriguez through email or social media.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+## Get in Touch
+
+Thank you for visiting my portfolio! If you have any questions, suggestions, or would simply like to get in touch, feel free to contact me through the methods below.
 
 _Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+
+You can send me an email at [jrodriguezd2006@gmail.com](mailto:jrodriguezd2006@gmail.com). I'll do my best to respond as soon as possible.
+
+_Phone:_
+
+You can also reach me by phone at **PHONE_NUMBER**.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+
+You can also find me on social media and follow my work:
+
+- [GitHub](https://github.com/Juansebas375)
+
+## Let's Connect
+
+I'm always interested in connecting with people who share an interest in technology, programming, and software development.
+
+_Thanks for visiting my portfolio!_
