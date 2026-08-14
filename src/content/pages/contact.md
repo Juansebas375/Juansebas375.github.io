@@ -15,7 +15,7 @@ You can send me an email at [jrodriguezd2006@gmail.com](mailto:jrodriguezd2006@g
 
 _Phone:_
 
-You can also reach me by phone at **PHONE_NUMBER**.
+You can also reach me by phone at **3053980220**.
 
 _Social Media:_
 
