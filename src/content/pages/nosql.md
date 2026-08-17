@@ -5,8 +5,6 @@ seo:
   description: NoSQL database exercises and projects developed during my studies.
 ---
 
-# NoSQL
-
 This section contains evidence related to NoSQL databases and non-relational data management.
 
 ## Databases

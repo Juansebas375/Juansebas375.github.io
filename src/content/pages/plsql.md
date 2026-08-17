@@ -5,8 +5,6 @@ seo:
   description: PL/SQL scripts and database programming exercises developed during my studies.
 ---
 
-# PL/SQL Scripts
-
 This section contains PL/SQL scripts and exercises developed during my Systems Engineering studies.
 
 ## Scripts

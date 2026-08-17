@@ -5,8 +5,6 @@ seo:
   description: SQL exercises, queries, joins, and database activities developed during my studies.
 ---
 
-# SQL
-
 This section contains evidence of the SQL activities and exercises developed during my Systems Engineering studies.
 
 ## Database Queries
