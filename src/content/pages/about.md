@@ -2,13 +2,13 @@
 title: About
 seo:
   title: About Me
-  description: Learn more about Juan Rodriguez, a Systems Engineering student interested in technology, software development, and web development.
+  description: Learn more avatar Juan Rodriguez, a Systems Engineering student interested in technology, software development, and web development.
   image:
-    src: '../../assets/images/about.jpg'
+    src: '../../assets/images/avatar.jpg'
     alt: A student working on a computer
 ---
 
-![Juan Rodriguez working on a computer](../../assets/images/about.jpg)
+![Juan Rodriguez working on a computer](../../assets/images/avatar.jpg)
 
 ## Juan Rodriguez - Systems Engineering Student
 
@@ -39,6 +39,20 @@ One of the aspects I enjoy most about Systems Engineering is solving problems th
 ## Future Goals
 
 My goal is to continue developing my technical skills and gain experience in different areas of software and web development. I want to keep building projects, learning from each experience, and eventually contribute to professional technology projects.
+
+## Project Presentation
+
+Here is a presentation of one of my projects developed during my Systems Engineering studies.
+
+<iframe
+  width="100%"
+  height="500"
+  src="https://www.youtube.com/embed/T4yXexKwgRM"
+  title="Project Presentation"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
 ## Get in Touch
 
