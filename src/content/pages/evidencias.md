@@ -11,18 +11,7 @@ This section contains evidence of my learning process and the projects I have de
 
 ## Categories
 
-### SQL
-
-Database exercises, queries, joins, and SQL projects developed during my studies.
-
-### PL/SQL Scripts
-
-PL/SQL scripts and exercises focused on database programming and procedural SQL.
-
-### NoSQL
-
-Exercises and projects related to NoSQL databases and non-relational data management.
-
-### Project
-
-Academic and personal projects developed to apply my programming and software development knowledge.
+- [SQL](./sql)
+- [PL/SQL Scripts](./plsql)
+- [NoSQL](./nosql)
+- [Project](./project)
