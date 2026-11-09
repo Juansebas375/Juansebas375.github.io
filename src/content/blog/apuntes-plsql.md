@@ -1,7 +1,8 @@
 ---
 title: "Apuntes Maestros de PL/SQL: Bloques, Cursores, Excepciones, Paquetes y Rendimiento"
 description: "Guía práctica de PL/SQL en Oracle: estructura de bloques, variables, control de flujo, cursores, excepciones, procedimientos, funciones, paquetes, triggers, colecciones, BULK COLLECT, FORALL y SQL dinámico."
-pubDate: "2026-11-09"
+excerpt: "Guía práctica de PL/SQL en Oracle: bloques, cursores, excepciones, paquetes, triggers y optimización con BULK COLLECT."
+publishDate: "Nov 09 2026"
 tags: ["plsql", "oracle", "databases", "procedimientos", "triggers", "cursores", "bulk-collect"]
 ---
 

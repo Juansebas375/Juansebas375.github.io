@@ -1,7 +1,8 @@
 ---
 title: "Apuntes Maestros de MongoDB: Documentos, CRUD, Agregaciones, Índices, Modelado y Transacciones"
 description: "Guía práctica de MongoDB: modelo de documentos BSON, mongosh, CRUD, operadores de consulta y actualización, pipeline de agregación, índices, explain, modelado embebido vs referenciado, validación de esquema, transacciones, replicación y sharding."
-pubDate: "2026-11-09"
+excerpt: "Guía práctica de MongoDB: modelo de documentos BSON, mongosh, CRUD, pipelines de agregación, índices y modelado NoSQL."
+publishDate: "Nov 09 2026"
 tags: ["mongodb", "nosql", "databases", "agregaciones", "indices", "modelado", "transacciones"]
 ---
 

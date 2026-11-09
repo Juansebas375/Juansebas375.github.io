@@ -1,7 +1,8 @@
 ---
 title: "Apuntes Maestros de SQL: Fundamentos, Analítica, Optimización y Concurrencia"
 description: "Guía técnica exhaustiva de SQL relacional: DDL, DML, TCL, normalización 3FN, JOINs, funciones de ventana, CTEs recursivas, MERGE, optimización de índices B-tree y control de concurrencia."
-pubDate: "2026-11-08"
+excerpt: "Guía técnica exhaustiva de SQL relacional: DDL, DML, TCL, normalización 3FN, JOINs, analítica y optimización."
+publishDate: "Nov 08 2026"
 tags: ["sql", "databases", "oracle", "optimizacion", "concurrencia", "transacciones"]
 ---
 
