@@ -14,5 +14,5 @@ const labs = (await getCollection('lab')).sort(
     showHeader={false}
 >
     <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Lab</h1>
-    {labs.map((lab) => <PostPreview post={lab} class="mb-10 sm:mb-12" />)}
+    {labs.map((lab) => <PostPreview post={lab} basePath="/lab" class="mb-10 sm:mb-12" />)}
 </BaseLayout>
