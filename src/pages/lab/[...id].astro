@@ -6,7 +6,7 @@ import FormattedDate from '../../components/FormattedDate.astro';
 export async function getStaticPaths() {
     const labs = await getCollection('lab');
     return labs.map((lab) => ({
-        params: { id: String(lab.id).replace(/\.(md|mdx)$/i, '').replace(/^\/+|\/+$/g, '') },
+        params: { id: lab.id },
         props: { lab }
     }));
 }
