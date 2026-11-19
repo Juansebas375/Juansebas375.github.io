@@ -1,4 +1,4 @@
-import avatar from '../assets/images/avatar.jpg';
+﻿import avatar from '../assets/images/avatar.jpg';
 import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
@@ -27,6 +27,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Blog',
             href: '/blog'
+        },
+        {
+            text: 'Lab',
+            href: '/lab'
         },
         {
             text: 'Tags',
