@@ -1,4 +1,4 @@
-import { glob } from 'astro/loaders';
+﻿import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { defineCollection, type ImageFunction } from 'astro:content';
 
@@ -30,6 +30,17 @@ const blog = defineCollection({
         })
 });
 
+const lab = defineCollection({
+    loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/lab' }),
+    schema: z.object({
+        title: z.string(),
+        excerpt: z.string().optional(),
+        publishDate: z.coerce.date(),
+        updatedDate: z.coerce.date().optional(),
+        tags: z.array(z.string()).default([])
+    })
+});
+
 const pages = defineCollection({
     loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/pages' }),
     schema: ({ image }) =>
@@ -51,4 +62,4 @@ const projects = defineCollection({
         })
 });
 
-export const collections = { blog, pages, projects };
+export const collections = { blog, lab, pages, projects };

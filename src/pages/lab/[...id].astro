@@ -1,0 +1,43 @@
+﻿---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+export async function getStaticPaths() {
+    const labs = await getCollection('lab');
+    return labs.map((lab) => ({
+        params: { id: lab.id },
+        props: { lab }
+    }));
+}
+
+type Props = { lab: CollectionEntry<'lab'> };
+
+const { lab } = Astro.props;
+const { title, publishDate, updatedDate, excerpt } = lab.data;
+const { Content } = await render(lab);
+---
+
+<BaseLayout title={title} description={excerpt} showHeader={false}>
+    <article class="mb-16 sm:mb-24">
+        <header class="mb-8">
+            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl">{title}</h1>
+            <div class="mt-4 text-sm">
+                <FormattedDate date={publishDate} />
+                {
+                    updatedDate && (
+                        <>
+                            {' '}
+                            <span>
+                                (Actualizado el <FormattedDate date={updatedDate} />)
+                            </span>
+                        </>
+                    )
+                }
+            </div>
+        </header>
+        <div class="max-w-none prose sm:prose-lg">
+            <Content />
+        </div>
+    </article>
+</BaseLayout>
