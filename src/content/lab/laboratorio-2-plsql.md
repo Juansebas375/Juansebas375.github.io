@@ -7,6 +7,6 @@ tags: ["plsql", "oracle"]
 
 Informe práctico del **Laboratorio 2 de PL/SQL en Oracle** aplicado a una droguería.
 
-📄 **[Ver / Descargar Informe en PDF](/Laboratorio2_PLSQL_Drogueria_Final.pdf)**
+📄 **[Ver / Descargar Informe en PDF](/labs/Laboratorio2_PLSQL_Drogueria_Final.pdf)**
 
 💻 **[Descargar Script PL/SQL Completo](/labs/Laboratorio2_PLSQL_Drogueria.sql)**

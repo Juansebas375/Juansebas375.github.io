@@ -7,6 +7,6 @@ tags: ["sql", "oracle"]
 
 Informe práctico del **Laboratorio 1 de SQL en Oracle** sobre ventas e inventario.
 
-📄 **[Ver / Descargar Informe en PDF](/Laboratorio_SQL_Oracle_Final.pdf)**
+📄 **[Ver / Descargar Informe en PDF](/labs/Laboratorio_SQL_Oracle_Final.pdf)**
 
 💻 **[Descargar Script SQL Completo](/labs/Laboratorio_SQL_Oracle.sql)**
